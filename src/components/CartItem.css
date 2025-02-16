@@ -1,0 +1,33 @@
+/* src/components/CartItem.css */
+.cart-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+.cart-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+.cart-item-details {
+  flex-grow: 1;
+}
+.quantity-controls {
+  display: flex;
+  align-items: center;
+}
+.quantity-controls button {
+  padding: 0.3rem 0.6rem;
+  margin: 0 0.5rem;
+}
+.delete-button {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+}

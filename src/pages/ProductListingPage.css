@@ -1,0 +1,12 @@
+/* src/pages/ProductListingPage.css */
+.product-listing {
+  padding: 1rem;
+}
+.product-category {
+  margin-bottom: 2rem;
+}
+.plant-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

@@ -1,0 +1,29 @@
+/* src/components/PlantCard.css */
+.plant-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  background: #fff;
+  width: 250px;
+}
+.plant-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.plant-card button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #28a745;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.plant-card button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}

@@ -1,0 +1,28 @@
+/* src/pages/ShoppingCartPage.css */
+.shopping-cart-page {
+  padding: 1rem;
+}
+.cart-summary p {
+  font-size: 1.2rem;
+}
+.cart-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+.continue-shopping,
+.checkout {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.continue-shopping {
+  background: #007bff;
+  color: white;
+}
+.checkout {
+  background: #28a745;
+  color: white;
+}
