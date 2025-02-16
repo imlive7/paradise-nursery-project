@@ -1,5 +1,5 @@
 {
-  "name": "paradise-nursery-project",
+  "name": "paradise-nursery",
   "version": "0.1.0",
   "homepage": "https://imlive7.github.io/paradise-nursery-project",
   "private": true,
@@ -19,7 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-     "predeploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
