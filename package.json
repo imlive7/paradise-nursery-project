@@ -1,6 +1,7 @@
 {
-  "name": "paradise-nursery",
+  "name": "paradise-nursery-project",
   "version": "0.1.0",
+  "homepage": "https://imlive7.github.io/paradise-nursery-project",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.1",
